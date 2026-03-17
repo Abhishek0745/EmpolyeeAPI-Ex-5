@@ -14,7 +14,7 @@ import in.scalive.service.EmpService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/emps")
+@RequestMapping("/api/emp")
 public class EmpController {
 
     private EmpService serv;
